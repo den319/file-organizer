@@ -8,3 +8,5 @@ pub struct Config {
     #[arg(short, long)]
     pub dry_run: bool,
 }
+
+pub const BASE_DIR: &str = "./test_folder";
